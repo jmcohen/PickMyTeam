@@ -15,12 +15,18 @@
 		3F19836515A488FD009E688B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19836415A488FD009E688B /* AppDelegate.m */; };
 		3F19836815A488FD009E688B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19836615A488FD009E688B /* MainStoryboard_iPhone.storyboard */; };
 		3F19836B15A488FE009E688B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19836915A488FE009E688B /* MainStoryboard_iPad.storyboard */; };
-		3F19836E15A488FE009E688B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19836D15A488FE009E688B /* FirstViewController.m */; };
-		3F19837015A488FE009E688B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19836F15A488FE009E688B /* first.png */; };
-		3F19837215A488FE009E688B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19837115A488FE009E688B /* first@2x.png */; };
-		3F19837515A488FE009E688B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19837415A488FE009E688B /* SecondViewController.m */; };
-		3F19837715A488FE009E688B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19837615A488FE009E688B /* second.png */; };
-		3F19837915A488FE009E688B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19837815A488FE009E688B /* second@2x.png */; };
+		3F19838115A489DB009E688B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19838015A489DB009E688B /* Player.m */; };
+		3F19838715A4919C009E688B /* PlayersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19838615A4919C009E688B /* PlayersListViewController.m */; };
+		3F19838A15A49914009E688B /* PlayerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19838915A49914009E688B /* PlayerDetailViewController.m */; };
+		3F19838D15A49FD3009E688B /* StatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19838C15A49FD3009E688B /* StatCell.m */; };
+		3F19839315A4AD39009E688B /* NameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19839215A4AD38009E688B /* NameCell.m */; };
+		3F19839C15A4BB64009E688B /* Stat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19839B15A4BB64009E688B /* Stat.m */; };
+		3F56A1EA15A4FBD200A15C6F /* NumberTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A1E915A4FBD200A15C6F /* NumberTeamsViewController.m */; };
+		3F56A1ED15A4FF3600A15C6F /* ChoosePlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A1EC15A4FF3600A15C6F /* ChoosePlayersViewController.m */; };
+		3F56A1F315A5077100A15C6F /* SharedSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A1F215A5077100A15C6F /* SharedSolver.m */; };
+		3F56A1F615A515F000A15C6F /* ShowTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A1F515A515F000A15C6F /* ShowTeamsViewController.m */; };
+		3F882DA515A6066E00C900A4 /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F882DA315A6066E00C900A4 /* 63-runner.png */; };
+		3F882DA615A6066E00C900A4 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F882DA415A6066E00C900A4 /* 112-group.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +34,36 @@
 		3F19835415A488FD009E688B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F19835615A488FD009E688B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F19835815A488FD009E688B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F19835C15A488FD009E688B /* PickMyTeam-Info.plist */ = {isa = PBXFileReference; path = "PickMyTeam-Info.plist"; sourceTree = "<group>"; };
+		3F19835C15A488FD009E688B /* PickMyTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickMyTeam-Info.plist"; sourceTree = "<group>"; };
 		3F19835E15A488FD009E688B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F19836015A488FD009E688B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F19836215A488FD009E688B /* PickMyTeam-Prefix.pch */ = {isa = PBXFileReference; path = "PickMyTeam-Prefix.pch"; sourceTree = "<group>"; };
-		3F19836315A488FD009E688B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F19836215A488FD009E688B /* PickMyTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickMyTeam-Prefix.pch"; sourceTree = "<group>"; };
+		3F19836315A488FD009E688B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F19836415A488FD009E688B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F19836715A488FD009E688B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3F19836A15A488FE009E688B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3F19836C15A488FE009E688B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		3F19836D15A488FE009E688B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3F19836F15A488FE009E688B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3F19837115A488FE009E688B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3F19837315A488FE009E688B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		3F19837415A488FE009E688B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3F19837615A488FE009E688B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3F19837815A488FE009E688B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3F19837F15A489DB009E688B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3F19838015A489DB009E688B /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3F19838515A4919C009E688B /* PlayersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersListViewController.h; sourceTree = "<group>"; };
+		3F19838615A4919C009E688B /* PlayersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersListViewController.m; sourceTree = "<group>"; };
+		3F19838815A49914009E688B /* PlayerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailViewController.h; sourceTree = "<group>"; };
+		3F19838915A49914009E688B /* PlayerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailViewController.m; sourceTree = "<group>"; };
+		3F19838B15A49FD2009E688B /* StatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatCell.h; sourceTree = "<group>"; };
+		3F19838C15A49FD3009E688B /* StatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatCell.m; sourceTree = "<group>"; };
+		3F19839115A4AD38009E688B /* NameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameCell.h; sourceTree = "<group>"; };
+		3F19839215A4AD38009E688B /* NameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameCell.m; sourceTree = "<group>"; };
+		3F19839A15A4BB64009E688B /* Stat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stat.h; sourceTree = "<group>"; };
+		3F19839B15A4BB64009E688B /* Stat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stat.m; sourceTree = "<group>"; };
+		3F56A1E815A4FBD100A15C6F /* NumberTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTeamsViewController.h; sourceTree = "<group>"; };
+		3F56A1E915A4FBD200A15C6F /* NumberTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTeamsViewController.m; sourceTree = "<group>"; };
+		3F56A1EB15A4FF3600A15C6F /* ChoosePlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePlayersViewController.h; sourceTree = "<group>"; };
+		3F56A1EC15A4FF3600A15C6F /* ChoosePlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePlayersViewController.m; sourceTree = "<group>"; };
+		3F56A1F115A5077000A15C6F /* SharedSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedSolver.h; sourceTree = "<group>"; };
+		3F56A1F215A5077100A15C6F /* SharedSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedSolver.m; sourceTree = "<group>"; };
+		3F56A1F415A515EF00A15C6F /* ShowTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTeamsViewController.h; sourceTree = "<group>"; };
+		3F56A1F515A515F000A15C6F /* ShowTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTeamsViewController.m; sourceTree = "<group>"; };
+		3F882DA315A6066E00C900A4 /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		3F882DA415A6066E00C900A4 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,14 +114,29 @@
 				3F19836415A488FD009E688B /* AppDelegate.m */,
 				3F19836615A488FD009E688B /* MainStoryboard_iPhone.storyboard */,
 				3F19836915A488FE009E688B /* MainStoryboard_iPad.storyboard */,
-				3F19836C15A488FE009E688B /* FirstViewController.h */,
-				3F19836D15A488FE009E688B /* FirstViewController.m */,
-				3F19836F15A488FE009E688B /* first.png */,
-				3F19837115A488FE009E688B /* first@2x.png */,
-				3F19837315A488FE009E688B /* SecondViewController.h */,
-				3F19837415A488FE009E688B /* SecondViewController.m */,
-				3F19837615A488FE009E688B /* second.png */,
-				3F19837815A488FE009E688B /* second@2x.png */,
+				3F19838515A4919C009E688B /* PlayersListViewController.h */,
+				3F19838615A4919C009E688B /* PlayersListViewController.m */,
+				3F19838815A49914009E688B /* PlayerDetailViewController.h */,
+				3F19838915A49914009E688B /* PlayerDetailViewController.m */,
+				3F882DA315A6066E00C900A4 /* 63-runner.png */,
+				3F882DA415A6066E00C900A4 /* 112-group.png */,
+				3F56A1E815A4FBD100A15C6F /* NumberTeamsViewController.h */,
+				3F56A1E915A4FBD200A15C6F /* NumberTeamsViewController.m */,
+				3F56A1EB15A4FF3600A15C6F /* ChoosePlayersViewController.h */,
+				3F56A1EC15A4FF3600A15C6F /* ChoosePlayersViewController.m */,
+				3F56A1F415A515EF00A15C6F /* ShowTeamsViewController.h */,
+				3F56A1F515A515F000A15C6F /* ShowTeamsViewController.m */,
+				3F19838B15A49FD2009E688B /* StatCell.h */,
+				3F19838C15A49FD3009E688B /* StatCell.m */,
+				3F19839115A4AD38009E688B /* NameCell.h */,
+				3F19839215A4AD38009E688B /* NameCell.m */,
+				3F19837F15A489DB009E688B /* Player.h */,
+				3F19838015A489DB009E688B /* Player.m */,
+				3F19839A15A4BB64009E688B /* Stat.h */,
+				3F19839B15A4BB64009E688B /* Stat.m */,
+				3F56A1F115A5077000A15C6F /* SharedSolver.h */,
+				3F56A1F215A5077100A15C6F /* SharedSolver.m */,
+				3F882DA815A6067300C900A4 /* Images */,
 				3F19835B15A488FD009E688B /* Supporting Files */,
 			);
 			path = PickMyTeam;
@@ -116,6 +151,13 @@
 				3F19836215A488FD009E688B /* PickMyTeam-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F882DA815A6067300C900A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +213,8 @@
 				3F19835F15A488FD009E688B /* InfoPlist.strings in Resources */,
 				3F19836815A488FD009E688B /* MainStoryboard_iPhone.storyboard in Resources */,
 				3F19836B15A488FE009E688B /* MainStoryboard_iPad.storyboard in Resources */,
-				3F19837015A488FE009E688B /* first.png in Resources */,
-				3F19837215A488FE009E688B /* first@2x.png in Resources */,
-				3F19837715A488FE009E688B /* second.png in Resources */,
-				3F19837915A488FE009E688B /* second@2x.png in Resources */,
+				3F882DA515A6066E00C900A4 /* 63-runner.png in Resources */,
+				3F882DA615A6066E00C900A4 /* 112-group.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +227,16 @@
 			files = (
 				3F19836115A488FD009E688B /* main.m in Sources */,
 				3F19836515A488FD009E688B /* AppDelegate.m in Sources */,
-				3F19836E15A488FE009E688B /* FirstViewController.m in Sources */,
-				3F19837515A488FE009E688B /* SecondViewController.m in Sources */,
+				3F19838115A489DB009E688B /* Player.m in Sources */,
+				3F19838715A4919C009E688B /* PlayersListViewController.m in Sources */,
+				3F19838A15A49914009E688B /* PlayerDetailViewController.m in Sources */,
+				3F19838D15A49FD3009E688B /* StatCell.m in Sources */,
+				3F19839315A4AD39009E688B /* NameCell.m in Sources */,
+				3F19839C15A4BB64009E688B /* Stat.m in Sources */,
+				3F56A1EA15A4FBD200A15C6F /* NumberTeamsViewController.m in Sources */,
+				3F56A1ED15A4FF3600A15C6F /* ChoosePlayersViewController.m in Sources */,
+				3F56A1F315A5077100A15C6F /* SharedSolver.m in Sources */,
+				3F56A1F615A515F000A15C6F /* ShowTeamsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +276,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Cohen (MP4WUF9UGW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -243,6 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "695E32E3-389C-41F9-8F0B-0FD7431B20BD";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -254,6 +304,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Cohen (MP4WUF9UGW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -263,6 +314,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "695E32E3-389C-41F9-8F0B-0FD7431B20BD";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -310,6 +362,7 @@
 				3F19837E15A488FE009E688B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

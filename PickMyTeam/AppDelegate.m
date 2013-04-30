@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Player.h"
 
 @implementation AppDelegate
 
@@ -43,6 +44,31 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
++ (NSString *) pathWithFilename: (NSString *) filename {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [NSString stringWithFormat: @"%@/%@", documentsDirectory, filename];
+    return path;
+}
+
+
++ (void) savePlayers:(NSMutableArray *)players {
+    NSMutableArray *playerDictionaries = [NSMutableArray array];
+    for (Player *player in players)
+        [playerDictionaries addObject:[player toDictionary]];
+    [playerDictionaries writeToFile:[AppDelegate pathWithFilename:@"players.xml"] atomically:YES];
+}
+
++ (NSMutableArray *) loadPlayers {
+    NSArray *playerDictionaries = [NSArray arrayWithContentsOfFile:[AppDelegate pathWithFilename:@"players.xml"]];
+    NSMutableArray *players = [NSMutableArray array];
+    for (NSDictionary *playerDictionary in playerDictionaries){
+        Player *player = [[Player alloc] initWithDictionary:playerDictionary];
+        [players addObject:player];
+    }
+    return players;
 }
 
 @end

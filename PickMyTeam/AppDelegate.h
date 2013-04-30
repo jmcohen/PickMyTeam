@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (NSString *) pathWithFilename: (NSString *) filename;
++ (void) savePlayers: (NSMutableArray *)players;
++ (NSMutableArray *) loadPlayers;
+
 @end

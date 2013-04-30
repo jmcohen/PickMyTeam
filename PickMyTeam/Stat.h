@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  Stat.h
 //  PickMyTeam
 //
 //  Created by Jeremy Cohen on 7/4/12.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface Stat : NSObject {
+    NSInteger value;
+}
+
+@property (nonatomic) NSInteger value;
 
 @end

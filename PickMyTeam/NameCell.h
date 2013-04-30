@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  EditNameCell.h
 //  PickMyTeam
 //
 //  Created by Jeremy Cohen on 7/4/12.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface NameCell : UITableViewCell {    
+    UITextField *nameField;
+}
+
+@property (nonatomic, strong) IBOutlet UITextField *nameField;
 
 @end
